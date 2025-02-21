@@ -114,25 +114,34 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
    
    ```mermaid
    flowchart TD
-      G["Sua resposta aqui!"]
+    A((Início)) --> B[\Digite um número N inteiro positivo, e descubra seu fatorial\]
+    B --> C{FN = N * N-1 * N-2 * N-3 ... 1}
+    C --> D[(Fim)]
    ```
    
 9. Elabore um fluxograma para verificar se um número digitado pelo usuário é par.
-   
-   > Em várias linguagens de programação, o operador % retorna o resto da divisão entre dois números.    
-   > 
-   >**Exemplos**:  
-   > - 9 % 2 = 1  
-   > - 11 % 3 = 2
-   
+
    ```mermaid
    flowchart TD
-      H["Sua resposta aqui!"]
+    A((Inicio)) --> B[\Digite um número N e descubra se ele é par\]
+    B --> C{N/2 = 0}
+    C --> |Sim| D[/Seu número é par/]
+    C --> |Não| E[/Seu número não é par/]
+    D --> F[(Fim)]
+    E --> F
    ```
    
 10. Elabore um fluxograma para verificar se um número digitado pelo usuário é primo.
    
    ```mermaid
    flowchart TD
-      I["Sua resposta aqui!"]
+      A((Início)) --> B[\Digite um número N e descubra se ele é primo\]
+      B --> C{N>1 E N//1 E N//N}
+      C --> |Sim| D{N//N+1}
+        D --> |Sim| E[/Seu número não é primo/]
+        D --> |Não| F[/Seu número é primo/]
+      C --> |Não| G[/Seu número não é primo/]
+      E --> H[(Fim)]
+      F --> H
+      G --> H
    ```
