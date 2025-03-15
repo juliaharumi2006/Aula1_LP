@@ -96,27 +96,40 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
    
    ```mermaid
    flowchart TD
-    A((Inicio)) --> B[\Digite três números diferentes: N1, N2 e N3\]
-    B --> C{N1>N2?}
-    C --> |Sim| D{N1>N3?}
-    D --> |Sim| E[/N1 é o maior númeoro!/]
-    D --> |Não| F[/N3 é o maior número!/]
-    C --> |Não| G{N2>N3?}
-    G --> |Sim| H[/N2 é o maior número!/]
-    G --> |Não| I[/N3 é o maior número!/]
-    E --> J([Fim])
-    F --> J
-    H --> J
-    I --> J
+    A((Inicio)) --> B[\Digite N1\]
+    B --> C[\Digite N2\]
+    C --> D[\Digite N3\]
+    D --> E{N1>N2}
+        E --> |Sim| F{N1>N3}
+            F --> |Sim| G[/N1 é o maior/]
+            F --> |Não| H{N3==N1\nOR\nN3==N2}
+                H --> |Sim| I[/Você digitou alguns\n números iguais/]
+                H --> |Não| J[/N3 é o maior/]
+        E --> |Não| K{N2>N3}
+            K --> |Sim| L[/N2 é o maior/]
+            K --> |Não| H
+   
+    G --> M([fim])
+    I --> M
+    J --> M
+    L --> M
+    
+
    ```
    
 8. Construa um fluxograma para calcular o fatorial de um número fornecido pelo usuário.
    
    ```mermaid
    flowchart TD
-    A((Início)) --> B[\Digite um número N inteiro positivo, e descubra seu fatorial\]
-    B --> C{FN = N * N-1 * N-2 * N-3 ... 1}
-    C --> D[(Fim)]
+    A((Início)) --> B[\Digite um número\]
+    B --> C[r=1]
+    C --> D{n>1?}
+        D --> |Sim| E[r = r*n]
+            E --> F[n = n-1]
+            F --> D
+        D --> |Não| G[/Resposta = r/]
+        G --> H([Fimgit c])
+
    ```
    
 9. Elabore um fluxograma para verificar se um número digitado pelo usuário é par.
@@ -124,10 +137,10 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
    ```mermaid
    flowchart TD
     A((Inicio)) --> B[\Digite um número N e descubra se ele é par\]
-    B --> C{N/2 = 0}
+    B --> C{N % 2 == 0?}
     C --> |Sim| D[/Seu número é par/]
     C --> |Não| E[/Seu número não é par/]
-    D --> F[(Fim)]
+    D --> F([Fim])
     E --> F
    ```
    
@@ -141,7 +154,7 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
         D --> |Sim| E[/Seu número não é primo/]
         D --> |Não| F[/Seu número é primo/]
       C --> |Não| G[/Seu número não é primo/]
-      E --> H[(Fim)]
+      E --> H([Fim])
       F --> H
       G --> H
    ```
