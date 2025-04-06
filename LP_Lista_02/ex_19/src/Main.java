@@ -12,9 +12,9 @@ public class Main {
         c = in.nextDouble();
 
         System.out.println(a + "x² + " + b + "x + " + c + " = 0");
-        delta = Math.pow(b,2) -4 * a * c;
+        delta = Math.pow(b,2) -4 * a * c; //Math.pow clacula potência
 
-        x1 = (-b -Math.sqrt(delta))/(2 * a);
+        x1 = (-b -Math.sqrt(delta))/(2 * a); //Math.sqrt calcula a raiz quadrada
         x2 = (-b +Math.sqrt(delta))/(2 * a);
         System.out.println("x1 = " + x1 + " e x2 = " + x2);
     }
