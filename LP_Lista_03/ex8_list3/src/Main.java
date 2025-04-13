@@ -18,7 +18,5 @@ public class Main {
             System.out.println(n + " % 2 = " + result);
             System.out.println("Seu número é ímpar");
         }
-
-
     }
 }
