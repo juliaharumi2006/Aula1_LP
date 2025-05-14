@@ -1,4 +1,4 @@
-![senai_logo](https://transparencia.sp.senai.br/Content/img/logo-senai.png)
+10![senai_logo](https://transparencia.sp.senai.br/Content/img/logo-senai.png)
 
 # Lista de Exercícios 04: Estruturas de Repetição 
 

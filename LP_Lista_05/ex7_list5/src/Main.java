@@ -6,8 +6,17 @@ public class Main {
         int maiorColuna = Integer.MIN_VALUE;
         int somaLinhas = 0, somaColunas = 0;
 
-        for(int linha=0; linha<matriz.lenght)
+        for(int i=0; i<matriz.length; i++) {
+            somaLinhas = 0;
+            for (int j = 0; j < matriz[0].length; j++){
+                somaLinhas += matriz[i][j];
+                somaColunas += matriz[j][i];
+            }
+        }
+        if(somaLinhas>maiorLinha)
+            maiorLinha = somaLinhas;
 
-
+        if(somaColunas>maiorColuna)
+            maiorColuna = somaColunas;
     }
 }
