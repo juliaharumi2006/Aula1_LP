@@ -1,5 +1,4 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+//Criar um programa que quando executado exiba todas as tabuadas do 1 ao 10.
 public class Main {
     public static void main(String[] args) {
         for(int i=1; i<=10; i++){
