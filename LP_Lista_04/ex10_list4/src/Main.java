@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Digite um número para ser o enésimo termo de uma sequência Fibonacci");
         n = in.nextInt();
 
-        while (atual<n){
+        while (atual<=n){
             System.out.println(atual);
             temp=atual;
             atual+=antecessor;

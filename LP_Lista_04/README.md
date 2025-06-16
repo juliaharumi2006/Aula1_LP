@@ -34,7 +34,7 @@ Para mais informações acesse [Aula 05: Estruturas de repetição.](https://cai
 
 8. Criar um programa onde o usuário entra com um número e o programa diz se o número digitado é primo ou não.
 
-9. Jogo da tabuada: o aplicativo irá exibir as tabuadas do 1 ao 10 uma operação por vez.Entre uma operação e outra o usuário deve inserir o resultado da conta, se o resultado digitado estiver correto o programa exibe a próxima operação caso contrário o jogo é encerrado mostrando a mensagem de que o jogador perdeu (deve exibir a opção jogarnovamente). Caso o jogador complete toda a tabuada sem erros o programa deve exibir uma mensagem parabenizando o jogador (e perguntar se deseja jogar novamente).
+9. Jogo da tabuada: o aplicativo irá exibir as tabuadas do 1 ao 10 uma operação por vez. Entre uma operação e outra o usuário deve inserir o resultado da conta, se o resultado digitado estiver correto o programa exibe a próxima operação caso contrário o jogo é encerrado mostrando a mensagem de que o jogador perdeu (deve exibir a opção jogarnovamente). Caso o jogador complete toda a tabuada sem erros o programa deve exibir uma mensagem parabenizando o jogador (e perguntar se deseja jogar novamente).
 
 10. Escreva um programa que gere a sequência de Fibonacci até o enésimo termo, onde $n$ é um número fornecido pelo usuário. 
     >Na matemática, a sucessão de Fibonacci, é uma sequência de números inteiros, começando normalmente por 0 e 1, na qual cada termo subsequente corresponde à soma dos dois anteriores.

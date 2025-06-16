@@ -4,12 +4,16 @@ import java.util.Scanner;
 // Obs.: N deve ser maior que 0.
 public class Main {
     public static void main(String[] args) {
-        int n;
+        int n, sum=0;
 
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Digite um número inteiro positivo");
+        System.out.println("Digite um número inteiro positivo maior que zero");
         n = in.nextInt();
-    }
 
+        for(int i=0;i<=n;i++){
+            sum+=i;
+        }
+        System.out.println("A soma dos valores é " + sum);
+    }
 }

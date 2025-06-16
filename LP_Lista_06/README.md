@@ -16,13 +16,16 @@ Para mais informações acesse [Aula 07: Funções e Recursividade.](https://cai
 
 ***
 
-1. Escreva uma função que receba um número inteiro positivo $N$ e retorne a soma de todosos números inteiros de $1$ até $N$. Obs.: $N$ deve ser maior que $0$.
+1. Escreva uma função que receba um número inteiro positivo $N$ e retorne a soma de todos os números inteiros de $1$ até $N$. 
+   Obs.: $N$ deve ser maior que $0$.
 
 2. Implemente uma função para calcular o fatorial de um número inteiro $N$ digitado pelo usuário.
 
-3. Crie uma função para calcular a potência de um número inteiro $x$ elevado a uma potência inteira $y$. Os valores de $x$ e $y$ serão fornecidos pelo usuário. $y$ deve ser maior ou igual a zero. <font color="red">Proibido utilizar ```Math.pow(x,y)```</font>.
+3. Crie uma função para calcular a potência de um número inteiro $x$ elevado a uma potência inteira $y$. Os valores de $x$ e $y$ serão
+fornecidos pelo usuário. $y$ deve ser maior ou igual a zero. <font color="red">Proibido utilizar ```Math.pow(x,y)```</font>.
 
-4. Escreva uma função em Java para verificar se uma *String* é um palíndromo. A *String* deve ser digitada pelo usuário. Um palíndromo é uma palavra, frase ou sequência que se lê da mesma forma de trás para frente. 
+4. Escreva uma função em Java para verificar se uma *String* é um palíndromo. A *String* deve ser digitada pelo usuário. 
+Um palíndromo é uma palavra, frase ou sequência que se lê da mesma forma de trás para frente. 
 
     Exemplos: “ovo”, “tenet”, “abasedotetodesaba”.
 

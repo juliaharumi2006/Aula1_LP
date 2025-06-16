@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int n;
+        int n, fatorial=1;
 
         Scanner in = new Scanner(System.in);
 
@@ -10,8 +10,9 @@ public class Main {
         n = in.nextInt();
 
         for(int i=1; i<=n ; i++){
-            System.out.println(i + " * " + n);
+            fatorial*=i;
         }
+        System.out.println("O fatorial de "+ n + " é "+ fatorial);
 
     }
 }

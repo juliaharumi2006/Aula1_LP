@@ -8,7 +8,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
 
         for(int i=0; i<=4;i++){
-            System.out.println("digite um número: ");
+            System.out.println("Digite um número: ");
             n = in.nextInt();
 
             if (i == 0) {
@@ -23,7 +23,7 @@ public class Main {
                 smaller = n;
             }
         }
-        System.out.println("O número maior é: " + bigger);
-        System.out.println("O número menor é: "+ smaller);
+        System.out.println("O maior número é: " + bigger);
+        System.out.println("O menor número é: "+ smaller);
     }
 }

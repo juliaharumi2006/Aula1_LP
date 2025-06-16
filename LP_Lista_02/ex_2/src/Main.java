@@ -11,6 +11,6 @@ public class Main {
         number = in.nextInt(); //pega o dado inserido pelo scanner e converte em int
 
         result = number * number;
-        System.out.println("O dobro de " + number + " é " + result);
+        System.out.println("O quadrado de " + number + " é " + result);
     }
 }

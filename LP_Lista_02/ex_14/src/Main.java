@@ -1,5 +1,19 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        double base, altura, area;
+
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Digite a base do triângulo: ");
+        base = in.nextDouble();
+
+        System.out.println("Digite a altura do triângulo: ");
+        altura = in.nextDouble();
+
+        area = (base * altura) / 2;
+
+        System.out.println("A área do triângulo é: " + area);
     }
 }

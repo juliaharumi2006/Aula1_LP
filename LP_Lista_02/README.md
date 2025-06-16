@@ -32,11 +32,11 @@ Para mais informações acesse [Aula 03: Fluxogramas.](https://cainaantunes.noti
 
 8. Ler uma medida em polegadas e converter para milímetros.
 
-9. Ler uma medida de distância em quilômetros e converter 
-para milhas.
+9. Ler uma medida de distância em quilômetros e converter para milhas.
+
 10. Ler uma medida de distância em milhas e converter para quilômetros.
 
-11. Entrar com o valor de temperatura em graus Celsius e exibir a temperaturacorrespondente em graus Fahrenheit.
+11. Entrar com o valor de temperatura em graus Celsius e exibir a temperatura correspondente em graus Fahrenheit.
 
 12. Ler duas notas N1 e N2 e exibir a média. 
 
